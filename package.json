@@ -1,0 +1,25 @@
+{
+  "name": "queuectl",
+  "version": "1.0.0",
+  "description": "Command-line job queue tool using Node.js and MongoDB",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "queuectl": "./src/cli.js"
+  },
+  "scripts": {
+    "start": "node ./src/cli.js",
+    "dev": "nodemon ./src/cli.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^14.0.2",
+    "mongoose": "^8.19.3",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
